@@ -1,0 +1,77 @@
+# Environment variables
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build outputs
+dist/
+build/
+*.egg-info/
+
+# Database
+*.db
+*.sqlite3
+
+# Docker
+.docker/
+
+# Temporary files
+*.tmp
+*.temp
+.tmp/
+.temp/
+
+# Coverage
+coverage/
+.coverage
+.nyc_output
+
+# Backup files
+*.bak
+*.backup
+
+# Security
+*.pem
+*.key
+!*.key.example
+*.crt
+*.csr
+
+# Data directories (may contain sensitive data)
+data/
+uploads/
